@@ -1,0 +1,12 @@
+drivers/mmc/dw_mmc.c:85:12:dwmci_wait_reset	0	static
+drivers/mmc/dw_mmc.c:795:12:dwmci_get_cd	0	static
+drivers/mmc/dw_mmc.c:675:12:dwmci_execute_tuning	32	static
+drivers/mmc/dw_mmc.c:655:13:dwmci_card_busy	16	static
+drivers/mmc/dw_mmc.c:589:12:dwmci_setup_bus.part.0.isra	32	static
+drivers/mmc/dw_mmc.c:320:12:dwmci_send_cmd	144	dynamic
+drivers/mmc/dw_mmc.c:691:12:dwmci_set_ios	32	static
+drivers/mmc/dw_mmc.c:81:6:dwmci_memcpy_fromio	0	static
+drivers/mmc/dw_mmc.c:82:6:dwmci_memcpy_toio	0	static
+drivers/mmc/dw_mmc.c:814:5:dwmci_probe	32	static
+drivers/mmc/dw_mmc.c:843:6:dwmci_setup_cfg	32	static
+drivers/mmc/dw_mmc.c:879:5:dwmci_bind	0	static

@@ -1,0 +1,7 @@
+drivers/ram/rockchip/sdram_px30.c:274:12:data_training.constprop	80	static
+drivers/ram/rockchip/sdram_px30.c:239:12:check_rd_gate.constprop	0	static
+drivers/ram/rockchip/sdram_px30.c:228:5:read_mr	32	static
+drivers/ram/rockchip/sdram_px30.c:407:12:sdram_init_.constprop	112	static
+drivers/ram/rockchip/sdram_px30.c:568:6:get_ddr_param	48	static
+drivers/ram/rockchip/sdram_px30.c:637:4:get_default_sdram_config	0	static
+drivers/ram/rockchip/sdram_px30.c:645:5:sdram_init	160	static

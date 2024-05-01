@@ -1,0 +1,3 @@
+arch/arm/mach-rockchip/param.c:282:18:param_parse_ddr_mem	80	static
+arch/arm/mach-rockchip/param.c:412:5:param_parse_pre_serial	32	static
+arch/arm/mach-rockchip/param.c:442:5:param_parse_pubkey_fuse_programmed	16	static

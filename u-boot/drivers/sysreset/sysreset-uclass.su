@@ -1,0 +1,6 @@
+drivers/sysreset/sysreset-uclass.c:18:5:sysreset_request	0	static
+drivers/sysreset/sysreset-uclass.c:28:5:sysreset_walk	48	static
+drivers/sysreset/sysreset-uclass.c:66:6:sysreset_walk_halt	32	static
+drivers/sysreset/sysreset-uclass.c:84:6:reset_cpu	16	static
+drivers/sysreset/sysreset-uclass.c:89:6:reboot	48	static
+drivers/sysreset/sysreset-uclass.c:96:5:do_reset	16	static

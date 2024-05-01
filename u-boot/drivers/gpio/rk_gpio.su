@@ -1,0 +1,6 @@
+drivers/gpio/rk_gpio.c:88:12:rockchip_gpio_set_value	32	static
+drivers/gpio/rk_gpio.c:80:12:rockchip_gpio_get_value	32	static
+drivers/gpio/rk_gpio.c:67:12:rockchip_gpio_direction_output	32	static
+drivers/gpio/rk_gpio.c:57:12:rockchip_gpio_direction_input	32	static
+drivers/gpio/rk_gpio.c:100:12:rockchip_gpio_get_function	48	static
+drivers/gpio/rk_gpio.c:126:12:rockchip_gpio_probe	64	static

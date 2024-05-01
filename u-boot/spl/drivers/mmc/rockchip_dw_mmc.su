@@ -1,0 +1,7 @@
+drivers/mmc/rockchip_dw_mmc.c:81:12:rockchip_dwmmc_ofdata_to_platdata	48	static
+drivers/mmc/rockchip_dw_mmc.c:59:13:rockchip_dwmmc_get_mmc_clk	32	static
+drivers/mmc/rockchip_dw_mmc.c:126:12:rockchip_dwmmc_execute_tuning	64	static
+drivers/mmc/rockchip_dw_mmc.c:259:12:rockchip_dwmmc_bind	32	static
+drivers/mmc/rockchip_dw_mmc.c:41:5:board_mmc_dm_reinit	48	static
+drivers/mmc/rockchip_dw_mmc.c:56:13:mmc_gpio_init_direct	0	static
+drivers/mmc/rockchip_dw_mmc.c:175:12:rockchip_dwmmc_probe	64	static

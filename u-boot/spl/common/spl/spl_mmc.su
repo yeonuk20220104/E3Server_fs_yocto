@@ -1,0 +1,4 @@
+common/spl/spl_mmc.c:50:14:h_spl_load_read	0	static
+common/spl/spl_mmc.c:124:5:spl_mmc_find_device	48	static
+common/spl/spl_mmc.c:282:5:spl_mmc_load_image	96	static
+common/spl/spl_mmc.c:222:5:spl_start_uboot	0	static

@@ -1,0 +1,2 @@
+drivers/power/charge-display-uclass.c:12:5:charge_display_show	32	static
+drivers/power/charge-display-uclass.c:22:5:charge_display	32	static

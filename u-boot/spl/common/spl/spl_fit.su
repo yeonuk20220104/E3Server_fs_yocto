@@ -1,0 +1,6 @@
+common/spl/spl_fit.c:36:12:spl_fit_get_image_name.constprop	80	static
+common/spl/spl_fit.c:90:12:spl_fit_get_image_node	48	static
+common/spl/spl_fit.c:167:12:spl_load_fit_image	128	static
+common/spl/spl_fit.c:299:12:spl_fit_append_fdt.isra	160	static
+common/spl/spl_fit.c:383:12:spl_fit_standalone_release	0	static
+common/spl/spl_fit.c:792:5:spl_load_simple_fit	288	static

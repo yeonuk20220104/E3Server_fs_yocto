@@ -1,0 +1,10 @@
+drivers/video/bridge/anx6345.c:109:12:anx6345_set_backlight	0	static
+drivers/video/bridge/anx6345.c:274:12:anx6345_attach	0	static
+drivers/video/bridge/anx6345.c:50:12:anx6345_read.isra	96	static
+drivers/video/bridge/anx6345.c:85:12:anx6345_read_r0.isra	48	static
+drivers/video/bridge/anx6345.c:77:12:anx6345_write_r0.isra	80	static
+drivers/video/bridge/anx6345.c:93:12:anx6345_write_r1.isra	80	static
+drivers/video/bridge/anx6345.c:417:12:anx6345_probe	64	static
+drivers/video/bridge/anx6345.c:174:12:anx6345_aux_transfer	96	static
+drivers/video/bridge/anx6345.c:256:12:anx6345_read_edid	112	static
+drivers/video/bridge/anx6345.c:436:13:anx6345_bridge_enable	176	static

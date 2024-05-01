@@ -1,0 +1,2 @@
+arch/arm/mach-rockchip/bootrom.c:25:6:back_to_bootrom	32	static
+arch/arm/mach-rockchip/bootrom.c:69:5:save_boot_params	16	static

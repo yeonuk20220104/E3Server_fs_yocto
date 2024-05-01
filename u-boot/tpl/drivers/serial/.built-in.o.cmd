@@ -1,0 +1,1 @@
+cmd_tpl/drivers/serial/built-in.o :=  /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ld.bfd     -r -o tpl/drivers/serial/built-in.o tpl/drivers/serial/serial-uclass.o tpl/drivers/serial/ns16550.o 

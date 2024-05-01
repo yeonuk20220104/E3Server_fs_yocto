@@ -1,0 +1,3 @@
+lib/avb/libavb/avb_rsa.c:111:13:subM	0	static
+lib/avb/libavb/avb_rsa.c:162:13:montMul	16	static
+lib/avb/libavb/avb_rsa.c:231:6:avb_rsa_verify	144	static

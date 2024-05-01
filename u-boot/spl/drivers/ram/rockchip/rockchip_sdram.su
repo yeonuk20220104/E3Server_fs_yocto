@@ -1,0 +1,2 @@
+drivers/ram/rockchip/rockchip_sdram.c:77:12:dmc_get_info	32	static
+drivers/ram/rockchip/rockchip_sdram.c:26:12:dmc_probe	32	static

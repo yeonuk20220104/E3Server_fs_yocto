@@ -1,0 +1,4 @@
+drivers/crypto/rockchip/crypto_hash_cache.c:78:6:crypto_flush_cacheline	0	static
+drivers/crypto/rockchip/crypto_hash_cache.c:92:27:crypto_hash_cache_alloc	64	static
+drivers/crypto/rockchip/crypto_hash_cache.c:116:6:crypto_hash_cache_free	32	static
+drivers/crypto/rockchip/crypto_hash_cache.c:127:5:crypto_hash_update_with_cache	96	static

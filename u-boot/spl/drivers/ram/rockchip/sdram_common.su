@@ -1,0 +1,16 @@
+drivers/ram/rockchip/sdram_common.c:13:6:sdram_print_dram_type	0	static
+drivers/ram/rockchip/sdram_common.c:118:5:sdram_get_cs_cap	0	static
+drivers/ram/rockchip/sdram_common.c:40:6:sdram_print_ddr_info	64	static
+drivers/ram/rockchip/sdram_common.c:157:6:sdram_copy_to_reg	0	static
+drivers/ram/rockchip/sdram_common.c:168:6:sdram_org_config	0	static
+drivers/ram/rockchip/sdram_common.c:191:6:sdram_org_config_v3	0	static
+drivers/ram/rockchip/sdram_common.c:233:5:sdram_detect_bw	0	static
+drivers/ram/rockchip/sdram_common.c:238:5:sdram_detect_cs	0	static
+drivers/ram/rockchip/sdram_common.c:243:5:sdram_detect_col	16	static
+drivers/ram/rockchip/sdram_common.c:269:5:sdram_detect_bank	0	static
+drivers/ram/rockchip/sdram_common.c:292:5:sdram_detect_bg	0	static
+drivers/ram/rockchip/sdram_common.c:315:5:sdram_detect_dbw	0	static
+drivers/ram/rockchip/sdram_common.c:365:5:sdram_detect_row	16	static
+drivers/ram/rockchip/sdram_common.c:391:5:sdram_detect_row_3_4	0	static
+drivers/ram/rockchip/sdram_common.c:415:5:sdram_detect_high_row	16	static
+drivers/ram/rockchip/sdram_common.c:498:5:sdram_detect_cs1_row	16	static

@@ -1,0 +1,11 @@
+arch/arm/mach-rockchip/tpl.c:27:6:putc	32	static
+arch/arm/mach-rockchip/tpl.c:21:6:puts	32	static
+arch/arm/mach-rockchip/tpl.c:37:12:timer_init	0	static
+arch/arm/mach-rockchip/tpl.c:44:13:__udelay	0	static
+arch/arm/mach-rockchip/tpl.c:79:6:udelay	0	static
+arch/arm/mach-rockchip/tpl.c:84:6:hang	16	static
+arch/arm/mach-rockchip/tpl.c:92:5:spl_boot_device	0	static
+arch/arm/mach-rockchip/tpl.c:97:13:rockchip_stimer_init	0	static
+arch/arm/mach-rockchip/tpl.c:117:12:arch_cpu_init	0	static
+arch/arm/mach-rockchip/tpl.c:122:6:board_init_f	16	static
+arch/arm/mach-rockchip/tpl.c:174:6:board_init_r	0	static

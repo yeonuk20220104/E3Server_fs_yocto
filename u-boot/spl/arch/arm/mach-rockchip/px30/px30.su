@@ -1,0 +1,7 @@
+arch/arm/mach-rockchip/px30/px30.c:474:13:fixup_pcfg_drive_strength	64	static
+arch/arm/mach-rockchip/px30/px30.c:199:5:arch_cpu_init	0	static
+arch/arm/mach-rockchip/px30/px30.c:270:6:board_debug_uart_init	0	static
+arch/arm/mach-rockchip/px30/px30.c:348:5:set_armclk_rate	64	static
+arch/arm/mach-rockchip/px30/px30.c:786:5:rk_board_fdt_fixup	112	static
+arch/arm/mach-rockchip/px30/px30.c:806:5:rk_board_early_fdt_fixup	16	static
+arch/arm/mach-rockchip/px30/px30.c:813:6:do_board_download	16	static

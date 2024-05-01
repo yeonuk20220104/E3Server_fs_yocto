@@ -1,0 +1,7 @@
+lib/avb/libavb/avb_slot_verify.c:79:28:load_full_partition	80	static
+lib/avb/libavb/avb_slot_verify.c:164:28:read_persistent_digest	96	static
+lib/avb/libavb/avb_slot_verify.c:567:28:load_and_verify_vbmeta	1472	static
+lib/avb/libavb/avb_slot_verify.c:1638:6:avb_slot_verify_data_free	48	static
+lib/avb/libavb/avb_slot_verify.c:1674:13:avb_slot_verify_result_to_string	16	static
+lib/avb/libavb/avb_slot_verify.c:1716:6:avb_slot_verify_data_calculate_vbmeta_digest	464	static
+lib/avb/libavb/avb_slot_verify.c:1372:21:avb_slot_verify	528	static

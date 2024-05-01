@@ -1,0 +1,8 @@
+arch/arm/lib/interrupts_64.c:36:6:show_regs	528	static
+arch/arm/lib/interrupts_64.c:137:6:do_bad_sync	32	static
+arch/arm/lib/interrupts_64.c:148:6:do_bad_irq	32	static
+arch/arm/lib/interrupts_64.c:159:6:do_bad_fiq	32	static
+arch/arm/lib/interrupts_64.c:170:6:do_bad_error	32	static
+arch/arm/lib/interrupts_64.c:181:6:do_sync	32	static
+arch/arm/lib/interrupts_64.c:205:6:do_fiq	32	static
+arch/arm/lib/interrupts_64.c:219:13:do_error	32	static

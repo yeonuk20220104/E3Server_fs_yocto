@@ -1,0 +1,2 @@
+lib/panic.c:32:6:panic_str	16	static
+lib/panic.c:38:6:panic	272	static

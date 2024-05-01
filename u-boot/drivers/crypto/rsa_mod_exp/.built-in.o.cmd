@@ -1,0 +1,1 @@
+cmd_drivers/crypto/rsa_mod_exp/built-in.o :=  rm -f drivers/crypto/rsa_mod_exp/built-in.o; /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ar rcs drivers/crypto/rsa_mod_exp/built-in.o

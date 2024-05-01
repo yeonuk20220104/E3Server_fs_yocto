@@ -1,0 +1,10 @@
+drivers/power/pmic/rk8xx.c:196:12:rk8xx_reg_count	16	static
+drivers/power/pmic/rk8xx.c:363:13:rk8xx_plug_out_handler	0	static
+drivers/power/pmic/rk8xx.c:209:12:rk8xx_write	32	static
+drivers/power/pmic/rk8xx.c:261:12:rk8xx_resume	32	static
+drivers/power/pmic/rk8xx.c:223:12:rk8xx_read	32	static
+drivers/power/pmic/rk8xx.c:278:12:rk8xx_shutdown	64	static
+drivers/power/pmic/rk8xx.c:236:12:rk8xx_suspend	48	static
+drivers/power/pmic/rk8xx.c:369:12:rk8xx_ofdata_to_platdata	64	static
+drivers/power/pmic/rk8xx.c:479:12:rk8xx_probe	144	static
+drivers/power/pmic/rk8xx.c:318:12:rk8xx_bind	32	static

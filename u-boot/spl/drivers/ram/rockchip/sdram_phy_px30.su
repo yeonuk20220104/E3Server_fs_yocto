@@ -1,0 +1,4 @@
+drivers/ram/rockchip/sdram_phy_px30.c:86:6:phy_soft_reset	32	static
+drivers/ram/rockchip/sdram_phy_px30.c:96:6:phy_dram_set_bw	0	static
+drivers/ram/rockchip/sdram_phy_px30.c:116:5:phy_data_training	64	static
+drivers/ram/rockchip/sdram_phy_px30.c:170:6:phy_cfg	32	static

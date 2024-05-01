@@ -1,0 +1,2 @@
+lib/hang.c:15:13:spl_hang_reset	0	static
+lib/hang.c:25:6:hang	16	static

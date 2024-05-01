@@ -1,0 +1,4 @@
+drivers/video/pwm_backlight.c:167:12:pwm_backlight_probe	0	static
+drivers/video/pwm_backlight.c:72:12:pwm_backlight_disable	48	static
+drivers/video/pwm_backlight.c:29:12:pwm_backlight_enable	48	static
+drivers/video/pwm_backlight.c:112:12:pwm_backlight_ofdata_to_platdata	144	static

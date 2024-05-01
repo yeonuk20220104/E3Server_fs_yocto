@@ -1,0 +1,4 @@
+drivers/firmware/psci.c:57:12:psci_probe	32	static
+drivers/firmware/psci.c:30:22:__invoke_psci_fn_smc	64	static
+drivers/firmware/psci.c:20:22:__invoke_psci_fn_hvc	64	static
+drivers/firmware/psci.c:40:12:psci_bind	32	static

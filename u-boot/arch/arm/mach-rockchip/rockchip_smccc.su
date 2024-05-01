@@ -1,0 +1,14 @@
+arch/arm/mach-rockchip/rockchip_smccc.c:23:29:__invoke_sip_fn_smc	80	static
+arch/arm/mach-rockchip/rockchip_smccc.c:34:5:psci_cpu_on	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:44:5:psci_system_suspend	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:54:5:sip_smc_set_suspend_mode	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:64:5:sip_smc_remotectl_config	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:73:5:sip_smc_amp_cfg	64	static
+arch/arm/mach-rockchip/rockchip_smccc.c:82:22:sip_smc_dram	16	static
+arch/arm/mach-rockchip/rockchip_smccc.c:89:22:sip_smc_request_share_mem	16	static
+arch/arm/mach-rockchip/rockchip_smccc.c:106:22:sip_smc_secure_reg_read	16	static
+arch/arm/mach-rockchip/rockchip_smccc.c:114:5:sip_smc_secure_reg_write	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:122:5:sip_smc_hdcp_config	48	static
+arch/arm/mach-rockchip/rockchip_smccc.c:130:22:sip_smc_get_sip_version	16	static
+arch/arm/mach-rockchip/rockchip_smccc.c:141:5:sip_smc_set_sip_version	64	static
+arch/arm/mach-rockchip/rockchip_smccc.c:155:5:sip_smc_mcu_config	48	static

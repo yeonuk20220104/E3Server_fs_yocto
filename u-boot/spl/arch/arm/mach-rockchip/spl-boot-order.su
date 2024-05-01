@@ -1,0 +1,2 @@
+arch/arm/mach-rockchip/spl-boot-order.c:136:20:board_spl_was_booted_from	0	static
+arch/arm/mach-rockchip/spl-boot-order.c:142:6:board_boot_order	96	static

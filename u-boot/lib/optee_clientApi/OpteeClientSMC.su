@@ -1,0 +1,7 @@
+lib/optee_clientApi/OpteeClientSMC.c:268:6:SetTeeSmc32Params	0	static
+lib/optee_clientApi/OpteeClientSMC.c:329:13:OpteeSmcCall	48	static
+lib/optee_clientApi/OpteeClientSMC.c:24:6:tee_uuid_to_octets	0	static
+lib/optee_clientApi/OpteeClientSMC.c:44:13:TEEC_SMC_OpenSession	64	static
+lib/optee_clientApi/OpteeClientSMC.c:148:13:TEEC_SMC_CloseSession	48	static
+lib/optee_clientApi/OpteeClientSMC.c:193:13:TEEC_SMC_InvokeCommand	64	static
+lib/optee_clientApi/OpteeClientSMC.c:253:13:TEEC_SMC_RequestCancellation	0	static

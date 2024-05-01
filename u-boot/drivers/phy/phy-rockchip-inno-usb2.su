@@ -1,0 +1,13 @@
+drivers/phy/phy-rockchip-inno-usb2.c:213:13:rockchip_chg_enable_dcd	64	static
+drivers/phy/phy-rockchip-inno-usb2.c:222:13:rockchip_chg_enable_primary_det	64	static
+drivers/phy/phy-rockchip-inno-usb2.c:231:13:rockchip_chg_enable_secondary_det	64	static
+drivers/phy/phy-rockchip-inno-usb2.c:457:12:rockchip_usb2phy_exit	32	static
+drivers/phy/phy-rockchip-inno-usb2.c:433:12:rockchip_usb2phy_init	32	static
+drivers/phy/phy-rockchip-inno-usb2.c:496:12:rockchip_usb2phy_power_off	32	static
+drivers/phy/phy-rockchip-inno-usb2.c:478:12:rockchip_usb2phy_power_on	32	static
+drivers/phy/phy-rockchip-inno-usb2.c:514:12:rockchip_usb2phy_of_xlate	48	static
+drivers/phy/phy-rockchip-inno-usb2.c:568:12:rockchip_usb2phy_probe	144	static
+drivers/phy/phy-rockchip-inno-usb2.c:540:12:rockchip_usb2phy_bind	80	static
+drivers/phy/phy-rockchip-inno-usb2.c:258:5:rockchip_chg_get_type	112	static
+drivers/phy/phy-rockchip-inno-usb2.c:366:5:rockchip_u2phy_vbus_detect	16	static
+drivers/phy/phy-rockchip-inno-usb2.c:376:6:otg_phy_init	80	static

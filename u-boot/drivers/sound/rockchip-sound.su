@@ -1,0 +1,4 @@
+drivers/sound/rockchip-sound.c:31:12:sound_hw_params.constprop.isra	32	static
+drivers/sound/rockchip-sound.c:42:12:sound_startup.isra	32	static
+drivers/sound/rockchip-sound.c:62:5:sound_init	48	static
+drivers/sound/rockchip-sound.c:104:5:sound_play	32	static

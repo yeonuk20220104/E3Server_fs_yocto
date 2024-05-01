@@ -1,0 +1,2 @@
+arch/arm/lib/stacktrace_64.c:62:6:dump_core_stack	48	static
+arch/arm/lib/stacktrace_64.c:105:6:dump_stack	336	static

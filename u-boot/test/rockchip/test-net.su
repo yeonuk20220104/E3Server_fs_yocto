@@ -1,0 +1,2 @@
+test/rockchip/test-net.c:219:12:eth_loopback_test	160	static
+test/rockchip/test-net.c:249:5:do_test_eth	576	static

@@ -1,0 +1,5 @@
+drivers/sound/rk817_codec.c:50:12:snd_soc_write.isra	0	static
+drivers/sound/rk817_codec.c:324:12:rk817_codec_probe	32	static
+drivers/sound/rk817_codec.c:281:12:rk817_hw_params	32	static
+drivers/sound/rk817_codec.c:113:12:rk817_codec_power_up.constprop.isra	48	static
+drivers/sound/rk817_codec.c:309:12:rk817_startup	48	static

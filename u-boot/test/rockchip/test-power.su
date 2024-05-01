@@ -1,0 +1,5 @@
+test/rockchip/test-power.c:198:12:do_test_charge	0	static
+test/rockchip/test-power.c:142:12:do_test_thermal	48	static
+test/rockchip/test-power.c:92:12:do_test_reset	0	static
+test/rockchip/test-power.c:100:12:do_test_dvfs	0	static
+test/rockchip/test-power.c:64:12:do_test_regulator	128	static

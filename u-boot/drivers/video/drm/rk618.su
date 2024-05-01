@@ -1,0 +1,6 @@
+drivers/video/drm/rk618.c:15:5:rk618_i2c_write	80	static
+drivers/video/drm/rk618.c:117:12:rk618_probe	64	static
+drivers/video/drm/rk618.c:40:5:rk618_i2c_read	112	static
+drivers/video/drm/rk618.c:70:6:rk618_frc_dither_disable	0	static
+drivers/video/drm/rk618.c:75:6:rk618_frc_dither_enable	0	static
+drivers/video/drm/rk618.c:80:6:rk618_frc_dclk_invert	0	static

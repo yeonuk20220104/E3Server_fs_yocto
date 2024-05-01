@@ -1,0 +1,8 @@
+arch/arm/mach-rockchip/rk_atags.c:69:7:memset	0	static
+arch/arm/mach-rockchip/rk_atags.c:94:7:memcpy	0	static
+arch/arm/mach-rockchip/rk_atags.c:133:5:atags_bad_magic	16	static
+arch/arm/mach-rockchip/rk_atags.c:156:5:atags_overflow	16	static
+arch/arm/mach-rockchip/rk_atags.c:173:5:atags_is_available	0	static
+arch/arm/mach-rockchip/rk_atags.c:180:5:atags_set_tag	64	static
+arch/arm/mach-rockchip/rk_atags.c:325:13:atags_get_tag	0	static
+arch/arm/mach-rockchip/rk_atags.c:386:6:atags_destroy	0	static

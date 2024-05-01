@@ -1,0 +1,1 @@
+cmd_tpl/arch/arm/mach-rockchip/px30/built-in.o :=  /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ld.bfd     -r -o tpl/arch/arm/mach-rockchip/px30/built-in.o tpl/arch/arm/mach-rockchip/px30/clk_px30.o tpl/arch/arm/mach-rockchip/px30/px30.o 

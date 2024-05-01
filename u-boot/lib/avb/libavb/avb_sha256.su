@@ -1,0 +1,3 @@
+lib/avb/libavb/avb_sha256.c:42:6:avb_sha256_init	32	static
+lib/avb/libavb/avb_sha256.c:54:6:avb_sha256_update	0	static
+lib/avb/libavb/avb_sha256.c:59:10:avb_sha256_final	32	static

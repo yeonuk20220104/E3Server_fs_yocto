@@ -1,0 +1,3 @@
+lib/avb/libavb_user/avb_user_verification.c:40:13:load_top_level_vbmeta_header	144	static
+lib/avb/libavb_user/avb_user_verification.c:129:6:avb_user_verification_get	320	static
+lib/avb/libavb_user/avb_user_verification.c:166:6:avb_user_verification_set	352	static

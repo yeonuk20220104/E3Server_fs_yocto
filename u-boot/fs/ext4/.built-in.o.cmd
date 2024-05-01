@@ -1,0 +1,1 @@
+cmd_fs/ext4/built-in.o :=  /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ld.bfd     -r -o fs/ext4/built-in.o fs/ext4/ext4fs.o fs/ext4/ext4_common.o fs/ext4/dev.o 
