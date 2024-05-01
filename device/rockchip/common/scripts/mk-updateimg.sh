@@ -98,7 +98,7 @@ build_updateimg()
 
 build_ota_updateimg()
 {
-	#check_config RK_AB_UPDATE || return 0
+	check_config RK_AB_UPDATE || return 0
 
 	echo "Make A/B update image for OTA"
 

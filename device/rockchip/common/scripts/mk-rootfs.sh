@@ -23,6 +23,7 @@ build_yocto()
 
 	cd yocto
 	ln -sf $RK_YOCTO_CFG.conf build/conf/local.conf
+
 	{
 		echo "PREFERRED_VERSION_linux-rockchip := \"$RK_KERNEL_VERSION_REAL%\""
 		echo "LINUXLIBCVERSION := \"$RK_KERNEL_VERSION_REAL-custom%\""
@@ -33,17 +34,16 @@ build_yocto()
 		echo "DISPLAY_PLATFORM := \"$RK_YOCTO_DISPLAY_PLATFORM\""
 	} > build/rksdk-override.conf
 
-	source oe-init-build-env  build
+	source oe-init-build-env build
 	LANG=en_US.UTF-8 LANGUAGE=en_US.en LC_ALL=en_US.UTF-8 \
 		bitbake core-image-minimal -f -c rootfs -c image_complete \
 		-R conf/include/rksdk.conf -R rksdk-override.conf
-
 
 	ln -rsf "$PWD/latest/rootfs.img" $ROOTFS_DIR/rootfs.ext4
 
 	touch "$RK_LOG_DIR/post-rootfs.log"
 	cat "$RK_LOG_DIR/post-rootfs.log"
-	finish_build build_yocto $@ 
+	finish_build build_yocto $@
 }
 
 build_debian()
