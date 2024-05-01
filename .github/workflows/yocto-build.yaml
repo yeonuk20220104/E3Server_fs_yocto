@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+   # - name: Setup Yocto environment
+     # run: |
+        # Set up Yocto environment here
+        # source setup-yocto-env.sh
+
+    - name: Build Yocto image
+      run: ./build.sh yocto
+      # bitbake core-image-minimal build
