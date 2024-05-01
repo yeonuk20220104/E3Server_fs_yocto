@@ -1,0 +1,2 @@
+/home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_usb_driver/rtk_coex.o /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_usb_driver/rtk_misc.o /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_usb_driver/rtk_bt.o
+

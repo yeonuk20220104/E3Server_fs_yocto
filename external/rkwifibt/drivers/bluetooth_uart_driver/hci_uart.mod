@@ -1,0 +1,2 @@
+/home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_uart_driver/hci_ldisc.o /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_uart_driver/hci_h4.o /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_uart_driver/hci_rtk_h5.o /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/external/rkwifibt/drivers/bluetooth_uart_driver/rtk_coex.o
+
