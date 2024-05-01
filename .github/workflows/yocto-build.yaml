@@ -10,9 +10,19 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      
+    - name: Setup Yocto environment
+      run: export LANG=en_US.UTF-8 LANGUAGE=en_US.en LC_ALL=en_US.UTF-8
+        # Set up Yocto environment here
+        # source setup-yocto-env.sh
+    
+    - name: Setup Yocto environment
+      run: sudo locale-gen en_US.UTF-8
+        # Set up Yocto environment here
+        # source setup-yocto-env.sh
 
-    #- name: Setup Yocto environment
-     # run: ./build.sh kernel
+    - name: Setup Yocto environment
+      run: ./build.sh kernel
         # Set up Yocto environment here
         # source setup-yocto-env.sh
 
