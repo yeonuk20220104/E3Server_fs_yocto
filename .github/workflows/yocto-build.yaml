@@ -11,10 +11,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
-    - name: Setup Yocto environment
-      run: |
-         sudo apt-get install -y chrpath 
-         sudo apt-get install -y diffstat
+   # - name: Setup Yocto environment
+      #run: |
+         #sudo apt-get install -y chrpath 
+         #sudo apt-get install -y diffstat
         # Set up Yocto environment here
           
     
