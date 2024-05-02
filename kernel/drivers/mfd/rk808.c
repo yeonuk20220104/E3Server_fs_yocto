@@ -994,7 +994,7 @@ static int rk817_reboot_notifier_handler(struct notifier_block *nb,
 {
 	struct rk817_reboot_data_t *data;
 	struct device *dev;
-	int value, power_en_active0, power_en_active1;
+	//int value, power_en_active0, power_en_active1;
 	int ret, i;
 	static const char * const pmic_rst_reg_only_cmd[] = {
 		"loader", "bootloader", "fastboot", "recovery",
@@ -1003,9 +1003,9 @@ static int rk817_reboot_notifier_handler(struct notifier_block *nb,
 
 	data = container_of(nb, struct rk817_reboot_data_t, reboot_notifier);
 	dev = &data->rk808->i2c->dev;
-
-	regmap_read(data->rk808->regmap, RK817_POWER_EN_SAVE0,
-		    &power_en_active0);
+#if 0    
+    /* Debug Point */
+	regmap_read(data->rk808->regmap, RK817_POWER_EN_SAVE0, &power_en_active0); 
 	if (power_en_active0 != 0) {
 		regmap_read(data->rk808->regmap, RK817_POWER_EN_SAVE1,
 			    &power_en_active1);
@@ -1028,7 +1028,7 @@ static int rk817_reboot_notifier_handler(struct notifier_block *nb,
 	} else {
 		dev_info(dev, "reboot: not restore POWER_EN\n");
 	}
-
+#endif 
 	if (action != SYS_RESTART || !cmd)
 		return NOTIFY_OK;
 
