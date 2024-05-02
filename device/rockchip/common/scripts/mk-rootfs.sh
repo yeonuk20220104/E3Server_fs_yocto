@@ -34,7 +34,7 @@ build_yocto()
 		echo "DISPLAY_PLATFORM := \"$RK_YOCTO_DISPLAY_PLATFORM\""
 	} > build/rksdk-override.conf
 
-    sudo locale-gen en_US.UTF-8
+    sudo locale-gen en_US.UTF-8 &
     export LANG=en_US.UTF-8 LANGUAGE=en_US.en LC_ALL=en_US.UTF-8
 
 	source oe-init-build-env build
