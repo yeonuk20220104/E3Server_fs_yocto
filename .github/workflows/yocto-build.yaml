@@ -13,8 +13,7 @@ jobs:
       
     - name: Setup Yocto environment
       run: |
-        #sudo apt-get update
-        sudo apt-get install -y chrpath diffstat
+         sudo apt-get install -y chrpath diffstat
         # Set up Yocto environment here
           
     
