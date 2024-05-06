@@ -7,7 +7,7 @@
 #include "dt-bindings/usb/pd.h"
 #include "rk3588s.dtsi"
 #include "rk3588s-evb.dtsi"
-#include "rk3588-rk806-dual.dtsi"
+#include "rk3588s-rk806-dual.dtsi"
 
 / {
 	combophy_avdd0v85: combophy-avdd0v85 {
@@ -34,6 +34,14 @@
 		compatible = "pwm-fan";
 		#cooling-cells = <2>;
 		pwms = <&pwm7 0 50000 0>;
+		cooling-levels = <0 50 100 150 200 255>;
+		rockchip,temp-trips = <
+			50000	1
+			55000	2
+			60000	3
+			65000	4
+			70000	5
+		>;
 	};
 
 	vcc3v3_lcd_n: vcc3v3-lcd0-n {
@@ -243,7 +251,7 @@
 		touch_gpio: touch-gpio {
 			rockchip,pins =
 				<1 RK_PB4 RK_FUNC_GPIO &pcfg_pull_up>,
-				<1 RK_PB5 RK_FUNC_GPIO &pcfg_pull_none>;
+				<1 RK_PB5 RK_FUNC_GPIO &pcfg_pull_up>;
 		};
 	};
 
@@ -279,6 +287,10 @@
 
 &sata2 {
 	status = "okay";
+};
+
+&u2phy0_otg {
+	rockchip,typec-vbus-det;
 };
 
 &u2phy2 {

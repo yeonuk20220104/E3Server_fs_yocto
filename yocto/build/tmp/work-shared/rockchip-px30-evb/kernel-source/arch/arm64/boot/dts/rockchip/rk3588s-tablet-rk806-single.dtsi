@@ -110,6 +110,7 @@
 		simple-audio-card,format = "i2s";
 		simple-audio-card,mclk-fs = <256>;
 		simple-audio-card,name = "rockchip,es8388-codec";
+		simple-audio-card,aux-devs = <&aw87xxx_pa1 &aw87xxx_pa2>;
 		simple-audio-card,dai-link@0 {
 			format = "i2s";
 			cpu {
@@ -119,15 +120,6 @@
 				sound-dai = <&es8388>;
 			};
 		};
-	};
-
-	vbus5v0_typec: vbus5v0-typec {
-		compatible = "regulator-fixed";
-		regulator-name = "vbus5v0_typec";
-		regulator-boot-on;
-		regulator-always-on;
-		regulator-min-microvolt = <5000000>;
-		regulator-max-microvolt = <5000000>;
 	};
 
 	vcc3v3_lcd_n: vcc3v3-lcd0-n {
@@ -234,11 +226,24 @@
 	mem-supply = <&vdd_cpu_big1_mem_s0>;
 };
 
+&dmc {
+	system-status-level = <
+		/*system status         freq level*/
+		SYS_STATUS_NORMAL       DMC_FREQ_LEVEL_MID_HIGH
+		SYS_STATUS_REBOOT       DMC_FREQ_LEVEL_HIGH
+		SYS_STATUS_SUSPEND      DMC_FREQ_LEVEL_LOW
+		SYS_STATUS_BOOST        DMC_FREQ_LEVEL_HIGH
+		SYS_STATUS_ISP          DMC_FREQ_LEVEL_HIGH
+		SYS_STATUS_PERFORMANCE  DMC_FREQ_LEVEL_HIGH
+		SYS_STATUS_DUALVIEW     DMC_FREQ_LEVEL_HIGH
+	>;
+};
+
 &dp0 {
 	status = "disabled";
 };
 
-&dp0_in_vp2 {
+&dp0_in_vp1 {
 	status = "okay";
 };
 
@@ -926,8 +931,8 @@
 	pinctrl-0 = <&lcd_rst_gpio>;
 	dsi,lanes  = <8>;
 	panel-init-sequence = [
-		29 00 02 00 00
-		29 00 03 99 95 27
+		29 02 02 00 00
+		29 02 03 99 95 27
 		05 78 01 11
 		05 01 01 29
 		29 00 02 00 00
@@ -944,7 +949,7 @@
 	disp_timings0: display-timings {
 		native-mode = <&dsi0_timing0>;
 		dsi0_timing0: timing0 {
-			clock-frequency = <132000000>;
+			clock-frequency = <246000000>;
 			hactive = <1600>;
 			vactive = <2176>;
 			hfront-porch = <18>;
@@ -1084,6 +1089,8 @@
 &gpu {
 	mali-supply = <&vdd_gpu_s0>;
 	mem-supply = <&vdd_gpu_mem_s0>;
+	upthreshold = <60>;
+	downdifferential = <30>;
 	status = "okay";
 };
 
@@ -1091,6 +1098,40 @@
 	status = "okay";
 	pinctrl-names = "default";
 	pinctrl-0 = <&i2c0m2_xfer>;
+
+	vdd_cpu_big0_s0: vdd_cpu_big0_mem_s0: rk8602@42 {
+		compatible = "rockchip,rk8602";
+		reg = <0x42>;
+		vin-supply = <&vcc5v0_sys>;
+		regulator-compatible = "rk860x-reg";
+		regulator-name = "vdd_cpu_big0_s0";
+		regulator-min-microvolt = <550000>;
+		regulator-max-microvolt = <1050000>;
+		regulator-ramp-delay = <2300>;
+		rockchip,suspend-voltage-selector = <1>;
+		regulator-boot-on;
+		regulator-always-on;
+		regulator-state-mem {
+			regulator-off-in-suspend;
+		};
+	};
+
+	vdd_cpu_big1_s0: vdd_cpu_big1_mem_s0: rk8603@43 {
+		compatible = "rockchip,rk8603";
+		reg = <0x43>;
+		vin-supply = <&vcc5v0_sys>;
+		regulator-compatible = "rk860x-reg";
+		regulator-name = "vdd_cpu_big1_s0";
+		regulator-min-microvolt = <550000>;
+		regulator-max-microvolt = <1050000>;
+		regulator-ramp-delay = <2300>;
+		rockchip,suspend-voltage-selector = <1>;
+		regulator-boot-on;
+		regulator-always-on;
+		regulator-state-mem {
+			regulator-off-in-suspend;
+		};
+	};
 };
 
 &i2c2 {
@@ -1120,18 +1161,40 @@
 		pinctrl-0 = <&charger_ok>;
 		interrupt-parent = <&gpio3>;
 		interrupts = <RK_PC3 IRQ_TYPE_EDGE_FALLING>;
-		/*phys = <&u2phy0>;*/
+		otg-mode-en-gpios = <&gpio1 RK_PA1 GPIO_ACTIVE_HIGH>;
 		ti,usb-charger-detection = <&usbc0>;
 
-		ti,battery-regulation-voltage = <4192000>; /* 4.192V */
+		ti,battery-regulation-voltage = <4400000>; /* 4.4V */
 		ti,charge-current = <1600000>; /* 1.6A */
 		ti,termination-current = <66000>;  /* 66mA */
 		ti,precharge-current = <130000>; /* 130mA */
 		ti,minimum-sys-voltage = <3000000>; /* 3V */
 		ti,boost-voltage = <5000000>; /* 5V */
-		ti,boost-max-current = <50000>; /* 50mA */
+		ti,boost-max-current = <1600000>; /* 1600mA */
+		regulators {
+			vbus5v0_typec: vbus5v0-typec {
+				regulator-compatible = "otg-vbus";
+				regulator-name = "vbus5v0_typec";
+			};
+		};
 	};
 
+	vdd_npu_s0: vdd_npu_mem_s0: rk8602@42 {
+		compatible = "rockchip,rk8602";
+		reg = <0x42>;
+		vin-supply = <&vcc5v0_sys>;
+		regulator-compatible = "rk860x-reg";
+		regulator-name = "vdd_npu_s0";
+		regulator-min-microvolt = <550000>;
+		regulator-max-microvolt = <950000>;
+		regulator-ramp-delay = <2300>;
+		rockchip,suspend-voltage-selector = <1>;
+		regulator-boot-on;
+		regulator-always-on;
+		regulator-state-mem {
+			regulator-off-in-suspend;
+		};
+	};
 };
 
 &i2c3 {
@@ -1142,21 +1205,23 @@
 		#sound-dai-cells = <0>;
 		compatible = "everest,es8388", "everest,es8323";
 		reg = <0x11>;
-		clocks = <&cru I2S0_8CH_MCLKOUT>;
+		clocks = <&mclkout_i2s0>;
 		clock-names = "mclk";
 		pinctrl-names = "default";
 		pinctrl-0 = <&i2s0_mclk>;
 	};
 
-	aw87xxx_pa1@58 {
+	aw87xxx_pa1: aw87xxx_pa1@58 {
 		compatible = "awinic,aw87xxx_pa";
+		#sound-dai-cells = <0>;
 		reg = <0x58>;
 		dev_index = < 0 >;
 		status = "okay";
 	};
 
-	aw87xxx_pa2@59 {
+	aw87xxx_pa2: aw87xxx_pa2@59 {
 		compatible = "awinic,aw87xxx_pa";
+		#sound-dai-cells = <0>;
 		reg = <0x59>;
 		dev_index = < 1 >;
 		status = "okay";
@@ -1189,7 +1254,37 @@
 &i2c5 {
 	status = "okay";
 	pinctrl-names = "default";
-	pinctrl-0 = <&i2c5m3_xfer>;
+	//pinctrl-0 = <&i2c5m3_xfer>;
+	pinctrl-0 = <&i2c5m0_xfer>;
+
+	ls_ucs14620: light@38 {
+		compatible = "ls_ucs14620";
+		status = "okay";
+		reg = <0x38>;
+		type = <SENSOR_TYPE_LIGHT>;
+		irq_enable = <0>;
+		als_threshold_high = <100>;
+		als_threshold_low = <10>;
+		als_ctrl_gain = <3>;/* 0:x1 1:x4 2:x16 3:x64 */
+		als_ctrl_time = <0x9f>;
+		poll_delay_ms = <100>;
+	};
+
+	ps_ucs14620: proximity@38 {
+		status = "okay";
+		compatible = "ps_ucs14620";
+		reg = <0x38>;
+		type = <SENSOR_TYPE_PROXIMITY>;
+		//pinctrl-names = "default";
+		//pinctrl-0 = <&gpio3_c6>;
+		irq-gpio = <&gpio3 RK_PC6 IRQ_TYPE_LEVEL_LOW>;
+		irq_enable = <0>;
+		ps_threshold_high = <0x20>;
+		ps_threshold_low = <0x1d>;
+		ps_ctrl_gain = <3>; /* 0:x1 1:x2 2:x5 3:x8 */
+		ps_led_current = <3>; /* 0:12.5mA 1:100mA 2:150mA 3:200mA*/
+		poll_delay_ms = <100>;
+	};
 
 	regulator@3e {
 		compatible = "tps65132";
@@ -1222,6 +1317,7 @@
 		reg = <0x22>;
 		interrupt-parent = <&gpio0>;
 		interrupts = <RK_PC4 IRQ_TYPE_LEVEL_LOW>;
+		int-n-gpios = <&gpio0 RK_PC4 GPIO_ACTIVE_LOW>;
 		pinctrl-names = "default";
 		pinctrl-0 = <&usbc0_int>;
 		vbus-supply = <&vbus5v0_typec>;
@@ -1252,6 +1348,18 @@
 				 PDO_FIXED(12000, 3000, PDO_FIXED_USB_COMM)>;
 			source-pdos =
 				<PDO_FIXED(5000, 3000, PDO_FIXED_USB_COMM)>;
+
+			ports {
+				#address-cells = <1>;
+				#size-cells = <0>;
+
+				port@0 {
+					reg = <0>;
+					usbc0_orien_sw: endpoint {
+						remote-endpoint = <&u2phy0_orientation_switch>;
+					};
+				};
+			};
 
 		};
 	};
@@ -1317,6 +1425,7 @@
 
 &pcie2x1l2 {
 	reset-gpios = <&gpio4 RK_PC1 GPIO_ACTIVE_HIGH>;
+	rockchip,skip-scan-in-resume;
 	status = "okay";
 };
 
@@ -1348,7 +1457,7 @@
 		touch_gpio: touch-gpio {
 			rockchip,pins =
 				<1 RK_PB4 RK_FUNC_GPIO &pcfg_pull_up>,
-				<1 RK_PB5 RK_FUNC_GPIO &pcfg_pull_none>;
+				<1 RK_PB5 RK_FUNC_GPIO &pcfg_pull_up>;
 		};
 	};
 
@@ -1442,6 +1551,8 @@
 };
 
 &rkvenc0 {
+	venc-supply = <&vdd_vdenc_s0>;
+	mem-supply = <&vdd_vdenc_mem_s0>;
 	status = "okay";
 };
 
@@ -1449,8 +1560,13 @@
 	status = "okay";
 };
 
+&rockchip_suspend {
+	status = "okay";
+	rockchip,sleep-debug-en = <1>;
+};
+
 &route_dsi0 {
-	status = "disabled";
+	status = "okay";
 	connect = <&vp2_out_dsi0>;
 };
 
@@ -1488,18 +1604,22 @@
 };
 
 &u2phy0 {
+	orientation-switch;
 	status = "okay";
+
+	port {
+		#address-cells = <1>;
+		#size-cells = <0>;
+		u2phy0_orientation_switch: endpoint@0 {
+			reg = <0>;
+			remote-endpoint = <&usbc0_orien_sw>;
+		};
+	};
 };
 
 &u2phy0_otg {
-	status = "okay";
-};
-
-&usbdp_phy0 {
-	status = "okay";
-};
-
-&usbdp_phy0_u3 {
+	rockchip,sel-pipe-phystatus;
+	rockchip,typec-vbus-det;
 	status = "okay";
 };
 
@@ -1512,8 +1632,8 @@
 	status = "okay";
 
 	maximum-speed = "high-speed";
-	/*phys = <&u2phy0_otg>;*/
-	/*phy-names = "usb2-phy";*/
+	phys = <&u2phy0_otg>;
+	phy-names = "usb2-phy";
 	usb-role-switch;
 	port {
 		#address-cells = <1>;
@@ -1542,11 +1662,13 @@
 };
 
 &vp1 {
-	rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER1 | 1 << ROCKCHIP_VOP2_ESMART1)>;
+	rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER0 | 1 << ROCKCHIP_VOP2_ESMART0 |
+				1 << ROCKCHIP_VOP2_CLUSTER1 | 1 << ROCKCHIP_VOP2_ESMART1)>;
 	rockchip,primary-plane = <ROCKCHIP_VOP2_ESMART1>;
 };
 
 &vp2 {
-	rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER2 | 1 << ROCKCHIP_VOP2_ESMART2)>;
+	rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER2 | 1 << ROCKCHIP_VOP2_ESMART2 |
+				1 << ROCKCHIP_VOP2_CLUSTER3 | 1 << ROCKCHIP_VOP2_ESMART3)>;
 	rockchip,primary-plane = <ROCKCHIP_VOP2_ESMART2>;
 };

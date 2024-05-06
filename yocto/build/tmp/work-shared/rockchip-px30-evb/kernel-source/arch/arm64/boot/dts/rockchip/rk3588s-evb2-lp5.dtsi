@@ -6,7 +6,7 @@
 
 #include "rk3588s.dtsi"
 #include "rk3588s-evb.dtsi"
-#include "rk3588-rk806-dual.dtsi"
+#include "rk3588s-rk806-dual.dtsi"
 
 / {
 	es7202_sound_micarray: es7202-sound-micarray {
@@ -127,7 +127,7 @@
 };
 
 &dp0 {
-	pinctrl-0 = <&dp1m2_pins>;
+	pinctrl-0 = <&dp0m2_pins>;
 	pinctrl-names = "default";
 	status = "okay";
 };
@@ -823,9 +823,9 @@
 		#sound-dai-cells = <0>;
 		compatible = "everest,es8388", "everest,es8323";
 		reg = <0x11>;
-		clocks = <&cru I2S0_8CH_MCLKOUT>;
+		clocks = <&mclkout_i2s0>;
 		clock-names = "mclk";
-		assigned-clocks = <&cru I2S0_8CH_MCLKOUT>;
+		assigned-clocks = <&mclkout_i2s0>;
 		assigned-clock-rates = <12288000>;
 		pinctrl-names = "default";
 		pinctrl-0 = <&i2s0_mclk>;
@@ -890,7 +890,7 @@
 		touch_gpio: touch-gpio {
 			rockchip,pins =
 				<4 RK_PB2 RK_FUNC_GPIO &pcfg_pull_up>,
-				<4 RK_PB4 RK_FUNC_GPIO &pcfg_pull_none>;
+				<4 RK_PB4 RK_FUNC_GPIO &pcfg_pull_up>;
 		};
 	};
 
@@ -944,8 +944,9 @@
 };
 
 &usbdrd_dwc3_0 {
-	dr_mode = "peripheral";
+	dr_mode = "otg";
 	phys = <&u2phy0_otg>;
 	phy-names = "usb2-phy";
 	maximum-speed = "high-speed";
+	extcon = <&u2phy0>;
 };
