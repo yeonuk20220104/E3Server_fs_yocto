@@ -12,9 +12,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
-   # - name: Setup Yocto environment
-    #  run: ./build.sh kernel
-          #sudo apt-get install -y chrpath 
+    - name: Setup Yocto environment
+      run: ./build.sh kernel
+          sudo apt-get install -y openssl 
          #sudo apt-get install -y diffstat
         # Set up Yocto environment here
           
