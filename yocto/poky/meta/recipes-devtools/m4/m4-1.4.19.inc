@@ -31,8 +31,8 @@ EXTRA_OEMAKE += "'infodir=${infodir}'"
 
 do_compile_ptest() {
 	cd ${B}/tests
-#	sed -i '/^buildtest-TESTS: /c buildtest-TESTS: $(TESTS) $(check_LIBRARIES) $(check_PROGRAMS)' Makefile
-#	oe_runmake buildtest-TESTS
+	sed -i '/^buildtest-TESTS: /c buildtest-TESTS: $(TESTS) $(check_LIBRARIES) $(check_PROGRAMS)' Makefile
+	oe_runmake buildtest-TESTS
 }
 
 do_install_ptest() {
