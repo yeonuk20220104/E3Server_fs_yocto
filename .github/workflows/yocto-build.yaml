@@ -23,8 +23,8 @@ jobs:
         # Set up Yocto environment here
         # source setup-yocto-env.sh
 
-    - name: Build Kernel environment
-      run: ./build.sh kernel
+    #- name: Build Kernel environment
+     # run: ./build.sh kernel
         # Set up Yocto environment here
         # source setup-yocto-env.sh
 
