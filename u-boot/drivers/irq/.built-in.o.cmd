@@ -1,1 +1,0 @@
-cmd_drivers/irq/built-in.o :=  /home/yujeong/iMON/iMON_old/px30_linux5.10_release_v1.1.1_20230520/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-ld.bfd     -r -o drivers/irq/built-in.o drivers/irq/irq-gic.o drivers/irq/irq-gpio.o drivers/irq/irq-generic.o drivers/irq/irq-gpio-switch.o drivers/irq/virq.o 

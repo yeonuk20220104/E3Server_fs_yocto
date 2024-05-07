@@ -1,3 +1,0 @@
-drivers/power/dvfs/dvfs-uclass.c:10:5:dvfs_apply	0	static
-drivers/power/dvfs/dvfs-uclass.c:20:5:dvfs_repeat_apply	0	static
-drivers/power/dvfs/dvfs-uclass.c:30:5:dvfs_init	48	static

@@ -1,7 +1,0 @@
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:601:12:wtemp_dvfs_probe	32	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:133:13:temp2string.constprop	0	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:494:12:wtemp_dvfs_ofdata_to_platdata	144	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:241:13:wtemp_dvfs_high_temp_adjust.constprop	80	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:202:13:wtemp_dvfs_low_temp_adjust	80	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:387:12:wtemp_dvfs_apply	96	static
-drivers/power/dvfs/rockchip_wtemp_dvfs.c:413:12:wtemp_dvfs_repeat_apply	112	static

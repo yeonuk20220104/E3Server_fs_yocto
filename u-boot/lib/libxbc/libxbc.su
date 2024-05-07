@@ -1,2 +1,0 @@
-lib/libxbc/libxbc.c:89:9:addBootConfigTrailer	80	static
-lib/libxbc/libxbc.c:56:9:addBootConfigParameters	80	static

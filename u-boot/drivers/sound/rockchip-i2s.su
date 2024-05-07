@@ -1,4 +1,0 @@
-drivers/sound/rockchip-i2s.c:54:12:rk_i2s_hw_params	16	static
-drivers/sound/rockchip-i2s.c:132:12:rk_i2s_set_sysclk	32	static
-drivers/sound/rockchip-i2s.c:147:12:rockchip_i2s_probe	32	static
-drivers/sound/rockchip-i2s.c:109:12:rk_i2s_transfer_tx_data	32	static

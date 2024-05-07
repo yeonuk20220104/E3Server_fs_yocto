@@ -1,1 +1,0 @@
-cmd_dts/dt-spl.dtb := ./tools/fdtgrep -b u-boot,dm-pre-reloc -b u-boot,dm-spl -RT arch/arm/dts/px30-evb.dtb -n /chosen -n /config -O dtb | ./tools/fdtgrep -r -O dtb - -o dts/dt-spl.dtb -P pinctrl-0 -P pinctrl-names -P interrupt-parent -P assigned-clocks -P assigned-clock-rates -P assigned-clock-parents

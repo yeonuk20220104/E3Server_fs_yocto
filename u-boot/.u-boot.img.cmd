@@ -1,1 +1,0 @@
-cmd_u-boot.img := ./tools/mkimage -f auto -A arm -T firmware -C none -O u-boot -a 0x00200000 -e 0 -n "U-Boot 2017.09""-230510 \$(pound)yujeong for evb_px30 board" -E -b arch/arm/dts/px30-evb.dtb -d u-boot-nodtb.bin u-boot.img  >/dev/null

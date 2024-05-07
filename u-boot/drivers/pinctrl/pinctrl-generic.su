@@ -1,2 +1,0 @@
-drivers/pinctrl/pinctrl-generic.c:293:12:pinctrl_generic_set_state_subnode	160	static
-drivers/pinctrl/pinctrl-generic.c:335:5:pinctrl_generic_set_state	64	static
