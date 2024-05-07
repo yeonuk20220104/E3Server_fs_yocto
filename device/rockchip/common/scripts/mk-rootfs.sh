@@ -39,8 +39,8 @@ build_yocto()
 
 	source oe-init-build-env build
 	#LANG=en_US.UTF-8 LANGUAGE=en_US.en LC_ALL=en_US.UTF-8 \
-	bitbake core-image-minimal -f -c rootfs -c image_complete -R rksdk-override.conf 
-	#-R conf/include/rksdk.conf 
+	bitbake core-image-minimal -f -c rootfs -c image_complete -R conf/include/rksdk.conf -R rksdk-override.conf 
+	# 
 
 	ln -rsf "$PWD/latest/rootfs.img" $ROOTFS_DIR/rootfs.ext4
 
