@@ -29,6 +29,5 @@ jobs:
         # source setup-yocto-env.sh
 
     - name: Build Yocto image
-      run: cd Platform2
-          ./build.sh yocto
+      run:  ./Platform2/build.sh yocto
       # bitbake core-image-minimal build
