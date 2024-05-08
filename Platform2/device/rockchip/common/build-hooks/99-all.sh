@@ -1,1 +1,0 @@
-../scripts/mk-all.sh

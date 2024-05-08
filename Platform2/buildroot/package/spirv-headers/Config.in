@@ -1,6 +1,0 @@
-config BR2_PACKAGE_SPIRV_HEADERS
-	bool "spirv-headers"
-	help
-	  Machine-readable files for the SPIR-V Registry.
-
-	  https://github.com/KhronosGroup/SPIRV-Headers
