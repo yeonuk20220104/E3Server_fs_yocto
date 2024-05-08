@@ -1,0 +1,17 @@
+88b44e851be63bdddd863b5b8eebaf158cae45ea		branch 'master' of ssh://www.rockchip.com.cn/linux/linux/rockit
+506f3ff43013db671e5de66eb0c2a452a1ee9d80		branch 'release_for_buildroot' of ssh://www.rockchip.com.cn/linux/linux/rockit
+999e2636aeb0e99bda32ec6b0daf68dae0c8645d		branch 'release_for_rv1126' of ssh://www.rockchip.com.cn/linux/linux/rockit
+506f3ff43013db671e5de66eb0c2a452a1ee9d80		tag 'linux-5.10-gen-rkr4.1' of ssh://www.rockchip.com.cn/linux/linux/rockit
+16a8ffede33506c8557ae2a50d2bcfd65c2e8f36		tag 'linux-4.19-M-rkr1' of ssh://www.rockchip.com.cn/linux/linux/rockit
+4d3fe0d62eb35c85bc6e8ec6c340d9f6ce163164		tag 'linux-4.19-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/rockit
+d9bfdb09190353c283d7d321ad11597d8d6f1752		tag 'linux-4.19-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/rockit
+23f64302c64d051a547563f326478def30e323b9		tag 'linux-4.19-gen-rkr3' of ssh://www.rockchip.com.cn/linux/linux/rockit
+88b44e851be63bdddd863b5b8eebaf158cae45ea		tag 'linux-4.19-gen-rkr3.1' of ssh://www.rockchip.com.cn/linux/linux/rockit
+d1471a4051dcc4364c0461f9477a20c379b288f5		tag 'linux-4.19-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/rockit
+a8067d371f1a09278556a156e720efac3565569e		tag 'linux-4.4-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/rockit
+1e5aae93dbef2f834420cfb315ed1280832caeef		tag 'linux-5.10-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/rockit
+35b99cfecfedb6d16bd75a2c0028dfcaffb3ffc8		tag 'linux-5.10-gen-rkr3.3' of ssh://www.rockchip.com.cn/linux/linux/rockit
+6a85836643f796cea824bc034b07a43cda38ab5f		tag 'linux-5.10-gen-rkr3.4' of ssh://www.rockchip.com.cn/linux/linux/rockit
+c3147b0ca395475bbe2d93696510d77af220145c		tag 'linux-5.10-gen-rkr3.5' of ssh://www.rockchip.com.cn/linux/linux/rockit
+395bba22573118b960e999ea972d458d83fd4e02		tag 'linux-5.10-gen-rkr3.6' of ssh://www.rockchip.com.cn/linux/linux/rockit
+80e919dcdb0599f4a82cd217ce26daf35ea27f20		tag 'linux-5.10-gen-rkr4' of ssh://www.rockchip.com.cn/linux/linux/rockit

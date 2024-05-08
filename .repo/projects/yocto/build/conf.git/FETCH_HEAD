@@ -1,0 +1,10 @@
+423b1aad5da2a2766ff71a000ce20310946211ab		branch 'kirkstone' of ssh://www.rockchip.com.cn/linux/linux/build
+5e6c6ab92b5a9b5ef76554593a813c1adc8e06c8		tag 'linux-4.19-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/build
+c4d333ae16a53d7ed411ae4a2900851598a0ebe7		tag 'linux-4.19-gen-rkr3' of ssh://www.rockchip.com.cn/linux/linux/build
+b7692de80e63cb2212cd21c6438953e7935cbb2a		tag 'linux-4.19-gen-rkr3.1' of ssh://www.rockchip.com.cn/linux/linux/build
+5bc080d521ce505da70f1a5b1a33ed2abb59bf74		tag 'linux-4.19-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/build
+2a2325859faf0450b81360ed2fe4e98ef83fc2f9		tag 'linux-4.4-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/build
+bef1180d16627cbe5c316304917e6e5b10fb86e8		tag 'linux-5.10-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/build
+f67ca521b7e635b95677252b7ef7363b171e2057		tag 'linux-5.10-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/build
+60da1aa8bc40a8e8a8374e89617e9a52ddfb464a		tag 'linux-5.10-gen-rkr3.4' of ssh://www.rockchip.com.cn/linux/linux/build
+e02c8ae3e2840d962f38b89f19ef06fc0af75a20		tag 'linux-5.10-gen-rkr4' of ssh://www.rockchip.com.cn/linux/linux/build

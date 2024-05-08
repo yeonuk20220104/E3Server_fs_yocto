@@ -1,0 +1,24 @@
+# pack-refs with: peeled fully-peeled 
+2e89382ca3f8c34086272509ae4d7a5c340ffafc refs/remotes/rk/master
+2e89382ca3f8c34086272509ae4d7a5c340ffafc refs/tags/linux-4.19-gen-rkr3.1
+abf659e24c5378febbc0b3ac5847cfb47390df31 refs/tags/linux-4.19-gen-rkr3.2
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+5c71244fa073d921917111598e0826efabfe6364 refs/tags/linux-5.10-gen-rkr2
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+62e350c3fdf346981b074bc569b41c45ed362b25 refs/tags/linux-5.10-gen-rkr3
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+41fe90cabbd3c3f01c8289857b8422d5b5f1d8ee refs/tags/linux-5.10-gen-rkr3.1
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+8414a1804575f481f28f86ff439204b6e5a7adba refs/tags/linux-5.10-gen-rkr3.2
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+4eaa5cef5aae77665bb9728da4ed2144c45c8278 refs/tags/linux-5.10-gen-rkr3.3
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+3af6d991e61220b6b395196c0dbbefa1e346fc00 refs/tags/linux-5.10-gen-rkr3.4
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+feb1bed3004e90770ccae576c97ea99a96b861b4 refs/tags/linux-5.10-gen-rkr3.5
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+399ece7fe6c14d4efe9ef82b37fa9d7dcb8f00a3 refs/tags/linux-5.10-gen-rkr3.6
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+b4e4c963079c7e5913a0034df1c9d07b842109cb refs/tags/linux-5.10-gen-rkr4
+^2e89382ca3f8c34086272509ae4d7a5c340ffafc
+2e89382ca3f8c34086272509ae4d7a5c340ffafc refs/tags/linux-5.10-gen-rkr4.1

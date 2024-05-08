@@ -1,0 +1,39 @@
+# pack-refs with: peeled fully-peeled 
+4954eb4fe61de813f5eed6ddb0de4097fa15f643 refs/remotes/rk/develop-next
+492f1cbfbc1ab03605ea44e52474f3358327c3d6 refs/remotes/rk/master
+aaa7de74620565c05df2de42b0ca86c02f519041 refs/tags/linux-4.19-M-rkr1
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+ad4b3963e20554d4fe11d2289b54bf60183deff8 refs/tags/linux-4.19-gen-rkr1
+^fb8d1b867822903291c9a5de9289844df2f8f598
+dba7df5cf5e99740cebc4d808a3650b543a0b026 refs/tags/linux-4.19-gen-rkr2
+^dd9d4d313ebd2d74b3cdc31c76770bef0dacdc66
+ecb6b174762973434b5dee610917e53dc21bde7e refs/tags/linux-4.19-gen-rkr3
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+74bbdf420ccac0b3639e6f7d07b305e353f4fafa refs/tags/linux-4.19-gen-rkr3.1
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+4d1819b5b79a04ef960bd70222cd425b0b5f6737 refs/tags/linux-4.19-gen-rkr3.2
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+b87dcde448624b73d95c1c3811fa7bb0435b42e0 refs/tags/linux-4.4-gen-rkr1
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+9eac6c1a827a539b3640c992e2da4b59b8fce8e4 refs/tags/linux-5.10-gen-rkr1
+^dd9d4d313ebd2d74b3cdc31c76770bef0dacdc66
+b563bbf5c8a434a2bf050b599f6fb347c2ee95c6 refs/tags/linux-5.10-gen-rkr2
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+1c630fa343d9ca376d320bbc8d83032c45a7ac53 refs/tags/linux-5.10-gen-rkr3
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+88e0323bc481aa352bd8287bf086a2fc3f86a177 refs/tags/linux-5.10-gen-rkr3.1
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+490c8b6b495c6e947f965681ac3f5e42756b5dcd refs/tags/linux-5.10-gen-rkr3.2
+^95d656a109a2d142a35fa20ffa4c5922037c97ad
+dabc8a359f5490f58b1aedae1833ab2cfd51d624 refs/tags/linux-5.10-gen-rkr3.3
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+25693054f4200a971741349d65df1f566b50a931 refs/tags/linux-5.10-gen-rkr3.4
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+d88b8376deec17d30fcb57ae0458d1d6587f66b8 refs/tags/linux-5.10-gen-rkr3.5
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+8c8c8d39a192caef4d523f49625d725ca8848089 refs/tags/linux-5.10-gen-rkr3.6
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+12e187a46b7785631874305918dcc062cea8d86c refs/tags/linux-5.10-gen-rkr4
+^b266e9a7348fc0856416e6aebc43a63f2dae8bf4
+9e0bbe3dfdf095c867ecdb3dbae14208d1fbb98c refs/tags/linux-5.10-gen-rkr4.1
+^4954eb4fe61de813f5eed6ddb0de4097fa15f643
