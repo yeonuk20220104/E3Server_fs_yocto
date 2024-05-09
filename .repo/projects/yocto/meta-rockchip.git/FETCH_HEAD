@@ -1,0 +1,10 @@
+14f41dafb59166992b078aeb65eae2163c6db0f9		branch 'kirkstone' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+49668d81487b6c8aa5d8ec92d1b133047f2665dd		tag 'linux-4.19-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+bc969258925ba11d97343ede5762d9f9a4877a3e		tag 'linux-4.19-gen-rkr3' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+f7fc40f19794773852b99a862a6230a6553a8c18		tag 'linux-4.19-gen-rkr3.1' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+41e598d9cbf5a4e2623ebd4fa14839df9724bb66		tag 'linux-4.19-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+e130ababb2bc8e643cd58ab42e54a581702e5d0c		tag 'linux-4.4-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+9a10eb21ce304f41a5130bd5d1d486475fdcc965		tag 'linux-5.10-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+6167b2cdba710dde173319ebb7555ca5ed4dd8d5		tag 'linux-5.10-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+0f87bb4159d6760606b628e3d90800ff5c47c623		tag 'linux-5.10-gen-rkr3.4' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip
+c496322566c5fa80a3c7e3549755790156dfa410		tag 'linux-5.10-gen-rkr4' of ssh://www.rockchip.com.cn/linux/linux/yocto/meta-rockchip

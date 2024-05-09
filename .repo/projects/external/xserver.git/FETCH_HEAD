@@ -1,0 +1,15 @@
+913d7ec2544571937314804697d145f980bfc54e		branch 'master' of ssh://www.rockchip.com.cn/linux/linux/xserver
+2baabe700b59f5a2681558c6a764155102325974		branch 'rockchip-1.18' of ssh://www.rockchip.com.cn/linux/linux/xserver
+e07d2e5951bfe7d1ac94d0a793b4d81a53b21c17		branch 'rockchip-1.20.11-debian' of ssh://www.rockchip.com.cn/linux/linux/xserver
+1683dfa99c8b6e06b3aa4ea3cad756297f392ff2		branch 'rockchip-1.20.4-debian' of ssh://www.rockchip.com.cn/linux/linux/xserver
+965a14bcc5a66dfffd9b9edba1ebc62a58abd06e		tag 'linux-5.10-gen-rkr4.1' of ssh://www.rockchip.com.cn/linux/linux/xserver
+1f937b122337be548d24a191b92a88720ce45f50		tag 'linux-5.10-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/xserver
+e910e171843c25fbd3b6e0ca558eb768fb8c0fd6		tag 'linux-5.10-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/xserver
+cad4cf405ff4df486792b7c3afbdd7c1fc9761bb		tag 'linux-5.10-gen-rkr3' of ssh://www.rockchip.com.cn/linux/linux/xserver
+fdedbf1fd942508a7fb44493ddf266feac848368		tag 'linux-5.10-gen-rkr3.1' of ssh://www.rockchip.com.cn/linux/linux/xserver
+0329c28af47d088f81c7f9b64c4043a86ebe12fd		tag 'linux-5.10-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/xserver
+f7bbeaf4ee14974dc1f3e639610f015fbfb54cda		tag 'linux-5.10-gen-rkr3.3' of ssh://www.rockchip.com.cn/linux/linux/xserver
+72c113a80d7e4c85f8bb351bac6939e7698f837c		tag 'linux-5.10-gen-rkr3.4' of ssh://www.rockchip.com.cn/linux/linux/xserver
+20983616cf3d1bc3d5d212c8e8701ddb62423026		tag 'linux-5.10-gen-rkr3.5' of ssh://www.rockchip.com.cn/linux/linux/xserver
+1c04a6ca35decad68b5862efb17534060f49db71		tag 'linux-5.10-gen-rkr3.6' of ssh://www.rockchip.com.cn/linux/linux/xserver
+76ff4518f7e3c8982a840980c36a3f9ef78b341d		tag 'linux-5.10-gen-rkr4' of ssh://www.rockchip.com.cn/linux/linux/xserver
