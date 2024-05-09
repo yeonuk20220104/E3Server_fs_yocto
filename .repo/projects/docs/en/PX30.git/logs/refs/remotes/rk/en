@@ -1,1 +1,0 @@
-0000000000000000000000000000000000000000 b728f23c1f625b618882389c0718456be5c758a2 gilbert_lee <gilbert_lee@stc-corp.co.kr> 1686869592 +0900	fetch --quiet --progress rk --tags +refs/heads/*:refs/remotes/rk/* +refs/heads/px30-en:refs/remotes/rk/px30-en +refs/tags/*:refs/tags/*: storing head

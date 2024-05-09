@@ -1,1 +1,0 @@
-0000000000000000000000000000000000000000 44eea7f70c155e395000d7222141e4b8c6545ea2 gilbert_lee <gilbert_lee@stc-corp.co.kr> 1686869577 +0900	fetch --quiet --progress rk --tags +refs/heads/*:refs/remotes/rk/* +refs/tags/linux-5.10-gen-rkr4.1:refs/tags/linux-5.10-gen-rkr4.1 +refs/tags/*:refs/tags/*: storing head
