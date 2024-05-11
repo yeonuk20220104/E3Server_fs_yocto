@@ -1,9 +1,0 @@
-571e36e20e9d1f27af0eb4545291beeb64f280e2		branch 'kirkstone/meta-openembedded' of ssh://www.rockchip.com.cn/linux/linux/poky
-b64b0a213240375e697185de06c3f502c65cdee7		tag 'linux-4.19-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/poky
-5520f4c8dbc022feb066e71a5638f43f67f54805		tag 'linux-4.19-gen-rkr3' of ssh://www.rockchip.com.cn/linux/linux/poky
-9618b222b30a9d99dca073378a1e8559c9ffe540		tag 'linux-4.19-gen-rkr3.1' of ssh://www.rockchip.com.cn/linux/linux/poky
-3296a1cab641ddd4ae62954d8eddea7d089bec37		tag 'linux-4.19-gen-rkr3.2' of ssh://www.rockchip.com.cn/linux/linux/poky
-6e15a482c9cdefeb4009e8841fc860652965521c		tag 'linux-4.4-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/poky
-304d99ffd639e9ce84551de4a8291f4160e5199e		tag 'linux-5.10-gen-rkr1' of ssh://www.rockchip.com.cn/linux/linux/poky
-883341e9ca18925b25e879866cca90bb57b552f2		tag 'linux-5.10-gen-rkr2' of ssh://www.rockchip.com.cn/linux/linux/poky
-7e3f2a4126d1bfacda497dfa6b59f3f471f1a984		tag 'linux-5.10-gen-rkr4' of ssh://www.rockchip.com.cn/linux/linux/poky

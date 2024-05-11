@@ -1,4 +1,0 @@
-# pack-refs with: peeled fully-peeled 
-5303ef053572980e51e219a3d843b9db99cf07ef refs/remotes/rk/develop
-dcd53f28498405ddfbe60a08260265fd9bfdd5fb refs/tags/linux-5.10-gen-rkr4.1
-^5303ef053572980e51e219a3d843b9db99cf07ef

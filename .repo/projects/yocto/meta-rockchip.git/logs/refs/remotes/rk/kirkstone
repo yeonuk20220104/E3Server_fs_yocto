@@ -1,1 +1,0 @@
-0000000000000000000000000000000000000000 14f41dafb59166992b078aeb65eae2163c6db0f9 gilbert_lee <gilbert_lee@stc-corp.co.kr> 1686869992 +0900	fetch --quiet --progress rk --tags +refs/heads/kirkstone:refs/remotes/rk/kirkstone +refs/tags/*:refs/tags/*: storing head
